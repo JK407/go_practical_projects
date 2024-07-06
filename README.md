@@ -2,6 +2,6 @@
 This is a practical question that you may encounter in a go interview.
 
 
-## [Project_01](go_memory_cache_system_project)
+## [Project_01](project_01)
 Golang implements a memory cache system.
 
