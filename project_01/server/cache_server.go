@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	//  默认过期时间间隔
+	// DefaultExpire 默认过期时间间隔
 	DefaultExpire = time.Hour * 24
 )
 

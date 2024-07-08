@@ -234,6 +234,5 @@ func (mc *memCache) GetCache() string {
 		log.Fatal("Error marshaling cache values:", err)
 		return ""
 	}
-
 	return string(jsonData)
 }
