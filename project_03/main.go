@@ -12,15 +12,15 @@ import (
 )
 
 var (
-	timeout      int64                      //  超时时间
-	size         int                        //  发送缓冲区大小
-	count        int                        //  要发送的回显请求数
-	typ          uint8   = 8                //回送请求8
-	code         uint8   = 0                //  回送请求0
-	sendCount    int                        //  发送次数
-	successCount int                        //  成功次数
-	failCount    int                        //  失败次数
-	tsList       []int64 = make([]int64, 0) //  时间列表
+	timeout      int64                  //  超时时间
+	size         int                    //  发送缓冲区大小
+	count        int                    //  要发送的回显请求数
+	typ          uint8              = 8 //回送请求8
+	code         uint8              = 0 //  回送请求0
+	sendCount    int                    //  发送次数
+	successCount int                    //  成功次数
+	failCount    int                    //  失败次数
+	tsList       = make([]int64, 0)     //  时间列表
 )
 
 // ICMP
