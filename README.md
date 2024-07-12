@@ -10,3 +10,6 @@ Golang implements producer-consumer model.
 
 ## [Project_03](project_03)
 Golang implements ping operation.
+
+## [Project_04](project_04)
+Cobra quickly implements a command line client
